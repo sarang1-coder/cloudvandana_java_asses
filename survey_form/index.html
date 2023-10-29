@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1><u>SURVEY FORM</u></h1>
+            <form action>
+
+                <div class="input text">
+
+                    <!-- Name  -->
+                    <label for="fname">FIRST NAME:</label>
+                    <input type="text" id="fname" placeholder="Enter Your FIRST Name" class="input-field" /><br/>
+                    <label for="lname">LAST NAME:</label>
+                    <input type="text" id="lname" placeholder="Enter Your LAST Name" class="input-field" /><br/>
+
+                    <!-- dob  -->
+                    <label for="dob">DATE OF BIRTH:</label>
+                    <input type="date" id="dob" placeholder="Enter Your DOB " class="input-field" /><br/>
+
+                    <!-- country -->
+                    <label for="country">CHOOSE YOUR COUNTRY:</label>
+                    <select id="country" name="country" class="input-field">
+                        <option value="india" selected>INDIA</option>
+                        <option value="usa">USA</option>
+                        <option value="china">CHINA</option>
+                        <option value="russia">RUSSIA</option>
+                    </select><br/>
+
+                    <!-- gender  -->
+                    <label>GENDER:</label>
+                    <input type="radio" id="male" name="gender" value="male" class="input-field">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" class="input-field">
+                    <label for="female">Female</label><br>
+
+                    <!-- profession  -->
+                    <label for="profession">PROFESSION:</label>
+                    <input type="text" id="profession" placeholder="Enter Your Profession" class="input-field" /><br/>
+
+
+                    <!-- email  -->
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="email" placeholder="Enter Email" class="input-field"/><br/>
+
+
+                    <!-- mobile no. -->
+                    <label for="mobile">MOBILE:</label>
+                    <input type="number" id="mobile" placeholder="Enter MOBILE No."  class="input-field"/>
+
+                </div>
+
+                <div class="btn">
+                    <button id="submit">SUBMIT</button>
+                    <button id="reset">RESET</button>
+                </div>
+
+            </form>
+        </div>
+        <script src="./script.js" async defer></script>
+    </body>
+</html>

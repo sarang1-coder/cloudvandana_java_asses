@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background: linear-gradient(rgb(247, 210, 210),rgb(168, 214, 168),rgb(165, 165, 206));
+}
+
+.container{
+    background-color: rgb(98, 219, 195);
+    width: 30vw;
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid rgb(112, 174, 112);
+    box-shadow: 0 0 6px 4px rgb(128, 233, 161);
+}
+
+
+h1{
+    text-align: center;
+}
+form{
+    padding: 20px;
+}
+
+.input-field{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn button{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#submit{
+    background-color: rgb(234, 161, 161);
+}
+
+#reset{
+    background-color: rgb(161, 220, 161);
+}
