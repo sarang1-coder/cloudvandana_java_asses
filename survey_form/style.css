@@ -44,3 +44,13 @@ form{
 #reset{
     background-color: rgb(161, 220, 161);
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 50%; 
+    }
+
+    .input-field {
+        font-size: 14px; 
+    }
+}
